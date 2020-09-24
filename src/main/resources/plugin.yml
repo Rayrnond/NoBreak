@@ -1,0 +1,8 @@
+name: NoBreak
+version: ${project.version}
+main: com.reflexian.nobreak.NoBreak
+description: Infinite Durability in Minecraft
+api-version: 1.8
+website: Reflexian.com
+author: Raymond, Dripward
+softdepend: [ActionBarAPI]
