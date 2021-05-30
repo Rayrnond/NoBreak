@@ -14,7 +14,7 @@ public final class NoBreak extends JavaPlugin implements Listener {
         int pluginId = 8333;
         new MetricsLite(this, pluginId);
         getServer().getPluginManager().registerEvents(new ItemListener(), this);
-
+        saveDefaultConfig();
     }
 
     @Override
