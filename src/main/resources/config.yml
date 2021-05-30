@@ -1,0 +1,6 @@
+
+# Should the plugin send a message to a player when their item is turned into unbreakable?
+send-message: true
+
+# Message sent if the above is true
+message: "&a&lYour item is now unbreakable!"

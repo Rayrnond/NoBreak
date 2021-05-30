@@ -11,7 +11,7 @@
 
     <name>NoBreak</name>
 
-    <description>Infinite Durability in Minecraft</description>
+    <description>Applies the infinity durability tag to any item.</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -59,14 +59,6 @@
             <id>spigotmc-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
-        <repository>
-            <id>sonatype</id>
-            <url>https://oss.sonatype.org/content/groups/public/</url>
-        </repository>
-        <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
-        </repository>
     </repositories>
 
     <dependencies>
@@ -76,17 +68,5 @@
             <version>1.8.8-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
-            <groupId>org.bukkit</groupId>
-            <artifactId>bukkit</artifactId>
-            <version>1.12.2-R0.1-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.github.ConnorLinfoot</groupId>
-            <artifactId>ActionBarAPI</artifactId>
-            <version>5b2d642d3df240cfd2545effcdcacec38405f9cf</version><!-- Replace with the last commit hash that you are looking for -->
-        </dependency>
-
     </dependencies>
 </project>
